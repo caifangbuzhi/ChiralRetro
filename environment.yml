@@ -1,0 +1,17 @@
+name: chiral_retro
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+    - rdkit
+    - python=3.8
+    - pytorch=1.7.0
+    - cudatoolkit=10.1.243
+    - pip
+    - pip:
+        - networkx
+        - wandb
+        - joblib
+        - tqdm
+        - scikit-learn
