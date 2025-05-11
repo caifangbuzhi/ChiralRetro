@@ -33,6 +33,6 @@ python eval.py --use_rxn_class --experiments exp --epochs epoch
 ```
 Unknown reaction type
 ```
-python eval.py --experiments --experiments exp --epochs epoch
+python eval.py --experiments exp --epochs epoch
 ```
 The "exp" refers to the experiment name, such as "07-01-2025--21-51-12". The "epoch" refers to the experiment batch, such as "epoch_1.pt".
